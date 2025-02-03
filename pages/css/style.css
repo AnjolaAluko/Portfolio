@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+:root{
+	--bg-color: #16181C;
+	--second-bg-color: #202020;
+	--text-color: #f2f2f2;
+	--second-color: white;
+	--main-color: #E2754D;
+	--big-font: 4.0rem;
+	--h2-font: 3rem;
+	--p-font: 0.99rem;
+}
+body{
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+.thankyou{
+    position: relative;
+    text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--text-color);
+	line-height: 1.1;
+    margin-top: 250px;
+}
+
+.t-icons i{
+	font-size: 70px;
+	margin-bottom: 20px;
+    color: var(--main-color);
+}
