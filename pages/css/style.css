@@ -37,3 +37,26 @@ body{
 	margin-bottom: 20px;
     color: var(--main-color);
 }
+
+.end{
+	padding: 260px 15%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	background: var(--bg-color);
+}
+
+.last-text p{
+	color: var(--second-color);
+	text-align: center;
+	font-size: 10px;
+}
+.top i{
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 15px;
+	color: var(--text-color);
+	background: var(--main-color);
+}
